@@ -1,4 +1,4 @@
-package DAY2;
+package java_vtp_bootcamp.DAY2;
 
 public class demo {
     public static void main(String[] args) {
