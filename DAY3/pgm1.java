@@ -1,12 +1,15 @@
 package DAY3;
 import java.util.*;
-public class Main {
+public class pgm1 {
     public static void main(String[] args) {
 
         System.out.println("Hello, World!");
         System.out.println("First non-repeating character using brute force: " + firstNonRepeatingCharacter("swiss"));
         System.out.println("First non-repeating character using hashing: " + firstNonRepeatingCharacterHashing("swiss"));
     }
+
+
+    
     public static char firstNonRepeatingCharacterHashing(String str) {
 
             HashMap<Character, Integer> map = new HashMap<>();
@@ -20,13 +23,6 @@ public class Main {
             }
             return '\0';
     }
-
-
-
-
-
-
-
 
 
 
